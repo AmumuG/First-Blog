@@ -1,0 +1,103 @@
+/* reset style */
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #333333;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+header h1 span {
+  color: #FD812A;
+  font-size: 35px;
+}
+
+/* navbar */
+.navbar {
+  background-color: #666666;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  border-right: 2px solid #000
+}
+/* end navbar */
+
+/* start container */
+.container .posts {
+  width: 69%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.container .aside {
+  width: 30%;
+  background-color: #eee;
+  padding: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.container .posts .post .img ,
+.container .posts .post .text {
+  float: left;
+}
+
+.container .posts .post img {
+  width: 150px;
+  height: 150px;
+}
+
+.container .posts .post {
+  padding: 20px;
+}
+
+.container .posts .post .img {
+  width: 20%;
+}
+
+.container .posts .post .text {
+  width: 80%;
+}
+
+a {
+  color: #DF9C64;
+  text-decoration: none;
+}
+/* end container */
+/* aside */
+.aside ul {
+  padding: 0;
+}
+
+.aside ul li {
+  list-style: none;
+  margin: 10px 0;
+  color: #DF9C64;
+}
+/* footer */
+footer {
+  text-align: center;
+  background: #666;
+  color: #fff;
+  padding: 20px;
+}
+
